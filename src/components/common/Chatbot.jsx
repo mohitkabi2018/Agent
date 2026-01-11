@@ -5,12 +5,10 @@ export default function Chatbot() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
 
-  // Add message to chat
   const addMessage = (sender, text) => {
     setMessages((prev) => [...prev, { sender, text }]);
   };
 
-  // Send message to backend
   const sendMessage = async () => {
     if (!input.trim()) return;
 
@@ -27,41 +25,44 @@ export default function Chatbot() {
 
       const data = await res.json();
       addMessage("bot", data.answer || "No response");
-    } catch (err) {
+    } catch {
       addMessage("bot", "Server error. Try again later.");
     }
   };
 
   return (
     <>
-      {/* Floating chat button */}
+      {/* Floating Chat Button */}
       <button
         onClick={() => setIsOpen(true)}
-        className={`fixed bottom-5 right-5 bg-blue-600 hover:bg-blue-700 text-white w-14 h-14 rounded-full shadow-lg flex justify-center items-center text-3xl transition ${
+        className={`fixed bottom-5 right-5 bg-blue-600 hover:bg-blue-700 text-white w-14 h-14 rounded-full shadow-lg flex justify-center items-center text-3xl z-50 transition ${
           isOpen ? "hidden" : ""
         }`}
       >
         💬
       </button>
 
-      {/* Chat window */}
+      {/* Chat Window */}
       {isOpen && (
-        <div className="fixed bottom-20 right-5 w-80 h-96 bg-white shadow-xl rounded-lg flex flex-col">
+        <div className="fixed bottom-20 right-5 w-80 h-96 bg-white border border-gray-300 shadow-xl rounded-xl flex flex-col z-50 overflow-hidden">
+          
           {/* Header */}
-          <div className="bg-blue-600 text-white p-3 flex justify-between items-center rounded-t-lg">
-            <span>Support Bot</span>
-            <button onClick={() => setIsOpen(false)}>✖</button>
+          <div className="bg-blue-600 text-white px-4 py-3 flex justify-between items-center">
+            <span className="font-semibold">Support Bot</span>
+            <button onClick={() => setIsOpen(false)} className="text-white text-xl">
+              ✖
+            </button>
           </div>
 
-          {/* Messages */}
-          <div className="flex-1 p-3 overflow-y-auto text-sm space-y-2">
-            {messages.map((msg, i) => (
+          {/* Messages Area */}
+          <div className="flex-1 p-3 overflow-y-auto space-y-2 bg-gray-50">
+            {messages.map((msg, index) => (
               <div
-                key={i}
-                className={`p-2 rounded-md max-w-[80%] ${
+                key={index}
+                className={`px-3 py-2 rounded-lg max-w-[80%] text-sm ${
                   msg.sender === "user"
                     ? "ml-auto bg-blue-500 text-white"
-                    : "mr-auto bg-gray-200"
+                    : "mr-auto bg-gray-200 text-gray-800"
                 }`}
               >
                 {msg.text}
@@ -69,19 +70,19 @@ export default function Chatbot() {
             ))}
           </div>
 
-          {/* Input section */}
-          <div className="p-3 border-t flex gap-2">
+          {/* Input Area */}
+          <div className="flex items-center gap-2 p-3 bg-white border-t">
             <input
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && sendMessage()}
-              className="flex-1 p-2 border rounded-md outline-none"
               placeholder="Type your message..."
+              className="flex-1 px-3 py-2 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none"
             />
             <button
               onClick={sendMessage}
-              className="bg-blue-600 text-white px-4 rounded-md"
+              className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
             >
               Send
             </button>
