@@ -9,6 +9,7 @@ import Hero from '../components/sections/hero/Hero';
 import Features from '../components/sections/features/Features';
 import Testimonials from '../components/sections/testimonials/Testimonials';
 import FAQ from '../components/sections/faq/FAQ';
+import Chatbot from "../components/common/Chatbot";
 
 // Animation variants
 const variants = {
@@ -115,6 +116,7 @@ const Home = () => {
       <Testimonials />
       <Trust />
       <FAQ />
+      <Chatbot />
     </motion.main>
   );
 };
