@@ -1,0 +1,423 @@
+{
+  "InstitutionId": "Modern-Cafe",
+  "hero": {
+    "tagline": "Premium Coffee Selection",
+    "title": {
+      "line1": "SMOKY",
+      "line2": "COFFEE"
+    },
+    "description": "Discover the Essence of Exquisite Coffee Beans. Each bean is meticulously sourced from the finest coffee-growing regions",
+    "buttons": [
+      {
+        "text": "Shop Beans",
+        "link": "/shop"
+      },
+      {
+        "text": "Explore Cafes",
+        "link": "/explore"
+      }
+    ],
+    "heroImage": "/images/cup.png",
+    "floatingBeans": [
+      {
+        "size": "w-5 sm:w-6 md:w-8 lg:w-10",
+        "position": "top-[15%] right-[15%]",
+        "image": "/images/bean.png"
+      },
+      {
+        "size": "w-4 sm:w-5 md:w-7 lg:w-9",
+        "position": "top-[50%] right-[10%]",
+        "image": "/images/bean.png"
+      },
+      {
+        "size": "w-6 sm:w-7 md:w-9 lg:w-11",
+        "position": "bottom-[25%] left-[15%]",
+        "image": "/images/bean.png"
+      }
+    ]
+  },
+  "features": {
+    "items": [
+      { 
+        "iconName": "FaCoffee",
+        "title": "First Order Discount",
+        "text": "Get 10% Off Your First Order",
+        "iconBg": "bg-[#E8C9A3]/10"
+      },
+      { 
+        "iconName": "FaTruck",
+        "title": "Free Local Delivery",
+        "text": "Free Delivery in The Bhawanipatna",
+        "iconBg": "bg-[#E8C9A3]/10"
+      },
+      { 
+        "iconName": "FaUsers",
+        "title": "Perfect For Everyone",
+        "text": "Taste For Everyone",
+        "iconBg": "bg-[#E8C9A3]/10"
+      }
+    ]
+  },
+  "categories": {
+    "title": "Explore Our Categories",
+    "description": "Discover our carefully curated selection of premium coffee products and experiences",
+    "items": [
+      { 
+        "title": "Iced Coffee",
+        "description": "Refreshing cold brews & frappes",
+        "image": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=500&q=80",
+        "link": "/category/iced-coffee"
+      },
+      { 
+        "title": "Coffee Cake",
+        "description": "Sweet treats & pastries",
+        "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=500&q=80",
+        "link": "/category/coffee-cake"
+      },
+      { 
+        "title": "Croissant",
+        "description": "Freshly baked delights",
+        "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&q=80",
+        "link": "/category/croissant"
+      },
+      { 
+        "title": "Coffee Beans",
+        "description": "Premium roasted selection",
+        "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=500&q=80",
+        "link": "/category/coffee-beans"
+      },
+      { 
+        "title": "Coffee Shops",
+        "description": "Find cafes near you",
+        "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=500&q=80",
+        "link": "/category/coffee-shops"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "SUPPORT",
+    "description": "Everything you need to know about our coffee and services",
+    "contactCTA": {
+      "text": "Still have questions? We're here to help!",
+      "buttonText": "Contact Us",
+      "buttonLink": "/contact"
+    },
+    "items": [
+      {
+        "id": 1,
+        "question": "What makes your coffee beans special?",
+        "answer": "Our coffee beans are carefully selected from sustainable farms and roasted in small batches to ensure optimal flavor. We focus on single-origin beans and unique blends that highlight the distinct characteristics of each region."
+      },
+      {
+        "id": 2,
+        "question": "How do you ensure coffee freshness?",
+        "answer": "We roast our coffee beans in small batches weekly and ship within 24 hours of roasting. Each package is sealed with a one-way valve to maintain freshness and comes with a roast date stamp."
+      },
+      {
+        "id": 3,
+        "question": "Do you offer international shipping?",
+        "answer": "Yes, we ship worldwide! Shipping costs and delivery times vary by location. We use expedited shipping methods to ensure your coffee arrives as fresh as possible."
+      },
+      {
+        "id": 4,
+        "question": "What's your return policy?",
+        "answer": "We want you to be completely satisfied with your purchase. If you're not happy with your coffee, contact us within 14 days of delivery, and we'll either replace it or provide a full refund."
+      },
+      {
+        "id": 5,
+        "question": "Do you offer coffee subscriptions?",
+        "answer": "Yes! We offer flexible subscription plans that can be customized to your preferences. Choose your favorite beans, delivery frequency, and quantity. Save 10% on all subscription orders."
+      }
+    ]
+  },
+  "products": {
+    "coffee": {
+      "title": "Tang-Tastic Coffee",
+      "description": "Experience our signature coffee collection with unique flavors",
+      "items": [
+        {
+          "title": "Vanilla Croissant",
+          "price": 100.00,
+          "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=500&q=80",
+          "description": "Classic vanilla flavor with a rich aroma"
+        },
+        {
+          "title": "Croissant Pistachio",
+          "price": 250.00,
+          "image": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?w=500&q=80",
+          "description": "Nutty pistachio with a sweet finish"
+        },
+        {
+          "title": "Croissant Chocolate",
+          "price": 700.00,
+          "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=500&q=80",
+          "description": "Rich chocolate with smooth texture"
+        },
+        {
+          "title": "Croissant Strawberry",
+          "price": 1000.00,
+          "image": "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=500&q=80",
+          "description": "Fresh strawberry with sweet notes"
+        }
+      ]
+    },
+    "croissants": {
+      "title": "To Go With Coffee",
+      "description": "Perfect pairings for your coffee experience",
+      "items": [
+        {
+          "title": "Vanilla Croissant",
+          "price": 99.00,
+          "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&q=80",
+          "description": "Classic buttery vanilla croissant"
+        },
+        {
+          "title": "Pistachio Croissant",
+          "price": 299.00,
+          "image": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=500&q=80",
+          "description": "Topped with crushed pistachios"
+        },
+        {
+          "title": "Chocolate Croissant",
+          "price": 399.00,
+          "image": "https://images.unsplash.com/photo-1617086903048-65e5d76dd467?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "Filled with Belgian chocolate"
+        },
+        {
+          "title": "Strawberry Croissant",
+          "price": 999.00,
+          "image": "https://plus.unsplash.com/premium_photo-1668472274328-cd239ae3586f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "description": "Fresh strawberry filling"
+        }
+      ]
+    }
+  },
+  "trust": {
+    "title": "Crafting Perfect Coffee",
+    "description": "Our commitment to excellence is reflected in every cup we serve. Experience the art of coffee making at its finest.",
+    "backgroundImage": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80",
+    "points": [
+      "Premium Quality Coffee Beans",
+      "Artisanal Baking Process",
+      "Sustainable Sourcing",
+      "Expert Baristas",
+      "Eco-Friendly Packaging"
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Discover why our customers love our coffee and service",
+    "items": [
+      {
+        "id": 1,
+        "name": "Sarah Johnson",
+        "role": "Coffee Enthusiast",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&q=80",
+        "quote": "The quality of their coffee beans is exceptional. Every morning starts perfectly with Smoky Brand coffee.",
+        "rating": 5,
+        "location": "London, UK"
+      }
+    ]
+  },
+  "about": {
+    "header": {
+      "title": "About Us",
+      "subtitle": "Crafting exceptional coffee experiences since 2010"
+    },
+    "story": {
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+      "title": "Our Story",
+      "description": "Founded with a passion for exceptional coffee, Smoky Brand has grown from a small roastery to a beloved coffee destination. Our journey is rooted in the pursuit of perfect roasts and memorable coffee experiences."
+    },
+    "values": [
+      {
+        "title": "Quality",
+        "description": "Committed to delivering the finest coffee experience while maintaining sustainable practices.",
+        "image": "https://images.unsplash.com/photo-1516600164266-f3b8166ae679"
+      },
+      {
+        "title": "Sustainability",
+        "description": "Committed to delivering the finest coffee experience while maintaining sustainable practices.",
+        "image": "https://images.unsplash.com/photo-1523287562758-66c7fc58967f"
+      },
+      {
+        "title": "Community",
+        "description": "Committed to delivering the finest coffee experience while maintaining sustainable practices.",
+        "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952"
+      }
+    ]
+  },
+  "coffeeProducts": {
+    "header": {
+      "title": "Our Products",
+      "description": "Explore our premium selection of coffee beans and brewing equipment"
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Ethiopian Yirgacheffe",
+        "description": "Light roast with floral and citrus notes",
+        "price": "599.00",
+        "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=500&q=80"
+      },
+      {
+        "id": 2,
+        "name": "Colombian Supremo",
+        "description": "Medium roast with caramel sweetness",
+        "price": "499.00",
+        "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500&q=80"
+      },
+      {
+        "id": 3,
+        "name": "Italian Espresso Blend",
+        "description": "Dark roast perfect for espresso",
+        "price": "649.00",
+        "image": "https://images.unsplash.com/photo-1516600164266-f3b8166ae679?w=500&q=80"
+      },
+      {
+        "id": 4,
+        "name": "Guatemala Antigua",
+        "description": "Medium roast with chocolate notes",
+        "price": "549.00",
+        "image": "https://images.unsplash.com/photo-1559525839-8b23ea8494ee?w=500&q=80"
+      }
+    ]
+  },
+  "contact": {
+    "header": {
+      "title": "Contact Us",
+      "description": "Get in touch with us for any questions or concerns"
+    },
+    "form": {
+      "fields": [
+        {
+          "id": "name",
+          "label": "Name",
+          "type": "text",
+          "placeholder": "Your name",
+          "required": true
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "type": "email",
+          "placeholder": "your.email@example.com",
+          "required": true
+        },
+        {
+          "id": "subject",
+          "label": "Subject",
+          "type": "text",
+          "placeholder": "How can we help?",
+          "required": true
+        },
+        {
+          "id": "message",
+          "label": "Message",
+          "type": "textarea",
+          "placeholder": "Your message...",
+          "required": true
+        }
+      ],
+      "submitButton": "Send Message"
+    },
+    "info": {
+      "email": {
+        "icon": "HiOutlineMail",
+        "title": "Email",
+        "items": [
+          "info@smokybrand.com",
+          "support@smokybrand.com"
+        ]
+      },
+      "phone": {
+        "icon": "HiOutlinePhone",
+        "title": "Phone",
+        "items": [
+          "+91 777 777 7777",
+          "+91 0999 999 9999"
+        ]
+      },
+      "location": {
+        "icon": "HiOutlineLocationMarker",
+        "title": "Location",
+        "items": [
+          "123 Coffee Street",
+          "Bhawanipatna, Odisha"
+        ]
+      }
+    },
+    "hours": {
+      "title": "Business Hours",
+      "schedule": [
+        {
+          "days": "Monday - Friday",
+          "hours": "9:00 AM - 6:00 PM"
+        },
+        {
+          "days": "Saturday",
+          "hours": "10:00 AM - 4:00 PM"
+        },
+        {
+          "days": "Sunday",
+          "hours": "Closed"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "brand": {
+      "logo": "/images/bean.png",
+      "name": "Smoky Brand",
+      "description": "Premium coffee and croissants, delivered with love and care."
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "links": [
+        {
+          "text": "About Us",
+          "url": "/about"
+        },
+        {
+          "text": "Our Products",
+          "url": "/coffee-products"
+        },
+        {
+          "text": "Coffee Hub",
+          "url": "/coffee-hub"
+        },
+        {
+          "text": "Contact Us",
+          "url": "/contact"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "items": [
+        "Bhawanipatna, Odisha",
+        "contact@smokybrand.com",
+        "+91 777 777 7777",
+        "+91 0999 999 9999"
+      ]
+    },
+    "social": {
+      "title": "Follow Us",
+      "links": [
+        {
+          "platform": "facebook",
+          "url": "https://facebook.com"
+        },
+        {
+          "platform": "twitter",
+          "url": "https://twitter.com"
+        },
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com"
+        }
+      ]
+    }
+  }
+}
